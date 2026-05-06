@@ -1,4 +1,4 @@
-def vendas():
+def vendas():#
 
     try:
         maca = int(input("\nDigite quantas maçãs foram vendidas: "))
@@ -14,7 +14,5 @@ def vendas():
     except:
         print("Digite um número válido!\n")
         vendas()
-        
-        
-vendas()        
-        
+              
+vendas()
