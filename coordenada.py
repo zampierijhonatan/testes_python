@@ -5,6 +5,8 @@
 #Terceiro Quadrante: os valores de x e y devem ser menores que zero;
 #Quarto Quadrante: o valor de x é maior que zero e o valor de y é menor que zero;
 #Caso contrário: o ponto está localizado no eixo ou origem.
+import os
+os.system("cls")
 
 def quadr():
     if coord_x > 0 and coord_y > 0:

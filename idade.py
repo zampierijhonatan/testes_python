@@ -4,6 +4,9 @@
 #Adolescente: 13 a 18 anos;
 #Adulto: acima de 18 anos.
 
+import os
+os.system("cls")
+
 idade = int(input("Digite sua idade: "))
 
 if idade >= 0 and idade <= 12:
