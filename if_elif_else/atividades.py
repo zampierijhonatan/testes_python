@@ -9,7 +9,11 @@ def atividades():
         
         total = atia + atib + atic
         
-        if atia <= 2:
+        
+        if atia <= 2 and atib <=2 and atic <=2:
+            print("\nCUIDADO!!! Seu prazo para realizar as atividades está extremamente curto, agilize-as o mais rápido possível!\n")
+            print(f"O tempo total para realizar as atividades é de {total}\n")
+        elif atia <= 2:
             print(f"\nO tempo total para realizar as atividades é de {total}\n")
             print(f"Cuidado! Está chegando ao final do prazo da atividade A, você tem apenas {atia} dias!\n")
         elif atib <= 2:
@@ -18,9 +22,7 @@ def atividades():
         elif atic <= 2:
             print(f"\nO tempo total para realizar as atividades é de {total}\n")
             print(f"Cuidado! Está chegando ao final do prazo da atividade A, você tem apenas {atic}dias!\n")
-        elif atia <= 2 and atib <=2 and atic <=2:
-            print("\nCUIDADO!!! Seu prazo para realizar as atividades está extremamente curto, agilize-as o mais rápido possível!\n")
-            print(f"O tempo total para realizar as atividades é de {total}\n")
+
         else:
             print(f"\nO tempo total para realizar as atividades é de {total}dias!\n")
             
@@ -31,4 +33,3 @@ def atividades():
         
         
 atividades()
-        
