@@ -22,7 +22,7 @@ def atividades():
             print("\nCUIDADO!!! Seu prazo para realizar as atividades está extremamente curto, agilize-as o mais rápido possível!\n")
             print(f"O tempo total para realizar as atividades é de {total}\n")
         else:
-            print(f"\nO tempo total para realizar as atividades é de {total}\n")
+            print(f"\nO tempo total para realizar as atividades é de {total}dias!\n")
             
     except:
         os.system("cls")
