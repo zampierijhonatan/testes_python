@@ -5,7 +5,7 @@ def dia_tarde_noite():
             
             horas = int(input("Em que horas está acessando o app(24h): "))
             
-            if 0 <= horas <=23:
+            if 0 <= horas <= 23:
                 
                 if horas < 12:
                     print("Bom dia!")
